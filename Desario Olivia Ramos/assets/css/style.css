@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Raleway",sans-serif;
+}
+
+#principal {
+    background-image: url("../images/bg-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left; /**/
+}
+
+#trabajos .card-img-top{
+    height: 250px;
+  
+}
+
+#contacto form label{
+    font-weight: 700;
+}

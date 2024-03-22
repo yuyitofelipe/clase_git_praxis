@@ -1,0 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto",sans-serif;
+}
+
+
+#cupones .card-img-top{
+    height: 200px;
+  
+}
+#contacto {
+    background-color: green;
+    padding: 20px;
+}
+#contacto form label{
+    font-weight: 700;
+}
+
+#navbar1 {
+    background-color: green; 
+    padding: 20px;
+}
+
+#navbar1 .img-fluid{
+    width: 150px;
+}
+.btn-blanco {
+    background-color: #fff;
+    border-color: #fff; 
+    pointer-events: none;
+}
+.logo_negro{
+    height: 30px;
+}

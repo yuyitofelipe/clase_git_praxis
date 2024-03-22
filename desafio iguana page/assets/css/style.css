@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+}
+
+.raleway-iguana {
+      font-family: "Raleway", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 300;
+      font-style: normal;
+    }
+
+header{
+    background-color: black;
+    color: white;
+    padding: 1em 0;
+    display: flex;
+    justify-content:center;
+}
+footer p{
+    background-color: black;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: black;
+}
+
+section p{
+    margin: 15px;
+    padding: 15px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+    display: flex;
+    
+}
+
+section img {
+    max-width: 200px;
+    height: auto;
+    float: right;
+    justify-content: center;
+}
+
+p {
+    display: flex;
+    color: #FFFFFF;
+    background-color: black;
+    text-align: center;
+    background-size: auto;
+    padding: 30px 0;
+    vertical-align: auto;
+    }
+
+.section_iguana {
+    display: flex;
+    padding: 50px 0;
+    color: #FFFFFF;
+    background-color: gray;
+    width: 100%; /* Ocupa todo el ancho disponible */
+    height: 100%; /* Ocupa todo el alto disponible */
+    justify-content: center;
+    
+}
+
+.div_iguana {
+    text-align: center;
+    font: normal normal 300 24px/29px Raleway;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    justify-content: center;
+}
+
+.section_iguana h2 {
+    text-align: center;
+    font: normal normal medium 40px/47px Raleway;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    color: #FFFFFF;
+}
+
+.section_iguana p {
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: gray;
+    
+}
+
+.image-container {
+    text-align: center;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.image-container img {
+    width: 300px; /* Cambia este valor al tamaño deseado */
+    height: 200px; /* Cambia este valor al tamaño deseado */
+    margin: 10px; /* Espacio entre las imágenes */
+     background-color: black;
+}
